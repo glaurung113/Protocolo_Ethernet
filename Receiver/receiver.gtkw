@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Sun Jul  6 02:45:02 2025
+[*]
+[dumpfile] "/home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Receiver/receiver_waveform.vcd"
+[dumpfile_mtime] "Sun Jul  6 02:42:51 2025"
+[dumpfile_size] 2686
+[savefile] "/home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Receiver/receiver.gtkw"
+[timestart] 0
+[size] 1920 1001
+[pos] -1 -1
+*-6.600000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] receiver_tb.
+[sst_width] 273
+[signals_width] 278
+[sst_expanded] 1
+[sst_vpaned_height] 263
+@28
+receiver_tb.dut.rx_clk
+[color] 1
+receiver_tb.dut.RX_DV
+@22
+[color] 2
+receiver_tb.dut.RXD[7:0]
+@2028
+[color] 3
+^1 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/tff/pcs_tx_cg_10B.tff
+receiver_tb.dut.SUDI[9:0]
+[color] 5
+^2 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Receiver/tff/rx_states.tff
+receiver_tb.dut.state[3:0]
+[color] 7
+^3 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Receiver/tff/rx_states.tff
+receiver_tb.dut.next_state[3:0]
+^3 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Receiver/tff/rx_states.tff
+receiver_tb.dut.state[3:0]
+@28
+[color] 1
+receiver_tb.dut.sync_status
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Sun Jul  6 05:18:59 2025
+[*]
+[dumpfile] "/home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Synchronizer/synchronizer_waveform.vcd"
+[dumpfile_mtime] "Sun Jul  6 05:16:25 2025"
+[dumpfile_size] 2580
+[savefile] "/home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Synchronizer/synchronizer.gtkw"
+[timestart] 0
+[size] 1920 1001
+[pos] -1 -1
+*-4.676415 206 236 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] synchronizer_tb.
+[treeopen] synchronizer_tb.dut.
+[sst_width] 278
+[signals_width] 270
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+synchronizer_tb.dut.rx_clk
+[color] 1
+synchronizer_tb.dut.reset
+@2028
+[color] 2
+^1 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Synchronizer/tff/code_groups.tff
+synchronizer_tb.dut.rx_code_group[9:0]
+[color] 3
+^2 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Synchronizer/tff/sync_state.tff
+synchronizer_tb.dut.state[16:0]
+[color] 5
+^3 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Synchronizer/tff/SUDI.tff
+synchronizer_tb.dut.SUDI[10:0]
+@28
+[color] 7
+synchronizer_tb.dut.rx_even
+synchronizer_tb.dut_p.rx_even_out
+[pattern_trace] 1
+[pattern_trace] 0

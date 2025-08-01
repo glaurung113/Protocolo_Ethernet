@@ -1,0 +1,119 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sun Jul  6 04:29:08 2025
+[*]
+[dumpfile] "/home/wilberahr/Documents/Repositories/1S_2025_G6/PCS/pcs_waveform.vcd"
+[dumpfile_mtime] "Sun Jul  6 04:27:00 2025"
+[dumpfile_size] 20965
+[savefile] "/home/wilberahr/Documents/Repositories/1S_2025_G6/PCS/pcs.gtkw"
+[timestart] 0
+[size] 1854 1001
+[pos] -27 -24
+*-6.476415 575 236 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pcs_tb.
+[treeopen] pcs_tb.pcs_inst.
+[treeopen] pcs_tb.pcs_inst.receiver_inst.
+[treeopen] pcs_tb.pcs_inst.synchronizer_inst.
+[treeopen] pcs_tb.pcs_inst.transmitter_inst.tx_o_set_dut.
+[sst_width] 278
+[signals_width] 308
+[sst_expanded] 1
+[sst_vpaned_height] 350
+@800200
+-PCS
+@28
+pcs_tb.pcs_inst.TX_CLK
+[color] 1
+pcs_tb.pcs_inst.RX_CLK
+@2022
+[color] 7
+^1 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_8b.tff
+pcs_tb.RXD[7:0]
+[color] 7
+^1 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_8b.tff
+pcs_tb.TXD[7:0]
+@2029
+[color] 5
+^2 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_10B.tff
+pcs_tb.pcs_inst.tx_code_group[9:0]
+@1000200
+-PCS
+@800200
+-Receiver
+@28
+[color] 1
+pcs_tb.pcs_inst.receiver_inst.rx_even
+[color] 1
+pcs_tb.pcs_inst.receiver_inst.rx_clk
+[color] 1
+pcs_tb.pcs_inst.receiver_inst.sync_status
+[color] 1
+pcs_tb.pcs_inst.receiver_inst.RX_DV
+@2022
+[color] 1
+^1 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_8b.tff
+pcs_tb.pcs_inst.receiver_inst.RXD[7:0]
+@2028
+[color] 1
+^3 /home/wilberahr/Documents/Repositories/1S_2025_G6/Receiver/tff/rx_states.tff
+pcs_tb.pcs_inst.receiver_inst.state[3:0]
+[color] 1
+^3 /home/wilberahr/Documents/Repositories/1S_2025_G6/Receiver/tff/rx_states.tff
+pcs_tb.pcs_inst.receiver_inst.next_state[3:0]
+[color] 1
+^2 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_10B.tff
+pcs_tb.pcs_inst.receiver_inst.SUDI[9:0]
+@1000200
+-Receiver
+@800200
+-Synchronizer
+@28
+pcs_tb.pcs_inst.synchronizer_inst.rx_clk
+pcs_tb.pcs_inst.synchronizer_inst.reset
+@2028
+^4 /home/wilberahr/Documents/Repositories/1S_2025_G6/Synchronizer/tff/code_groups.tff
+pcs_tb.pcs_inst.synchronizer_inst.rx_code_group[9:0]
+^5 /home/wilberahr/Documents/Repositories/1S_2025_G6/Synchronizer/tff/sync_state.tff
+pcs_tb.pcs_inst.synchronizer_inst.state[16:0]
+^6 /home/wilberahr/Documents/Repositories/1S_2025_G6/Synchronizer/tff/SUDI.tff
+pcs_tb.pcs_inst.synchronizer_inst.SUDI[10:0]
+@28
+pcs_tb.pcs_inst.synchronizer_inst.rx_even
+pcs_tb.pcs_inst.synchronizer_inst.next_rx_even
+@1000200
+-Synchronizer
+@800200
+-Transmitter
+@200
+-tx_o_set
+@2022
+[color] 3
+^7 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_o_set.tff
+pcs_tb.pcs_inst.transmitter_inst.tx_o_set[7:0]
+@28
+pcs_tb.pcs_inst.rx_even
+[color] 1
+pcs_tb.pcs_inst.transmitting
+@2028
+[color] 3
+^8 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_xmit.tff
+pcs_tb.pcs_inst.transmitter_inst.tx_o_set_dut.xmit[2:0]
+@200
+-tx_cg
+@2022
+[color] 3
+^9 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_o_set_states.tff
+pcs_tb.pcs_inst.transmitter_inst.tx_o_set_dut.state[7:0]
+[color] 3
+^9 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_o_set_states.tff
+pcs_tb.pcs_inst.transmitter_inst.tx_o_set_dut.next_state[7:0]
+[color] 3
+^10 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_states.tff
+pcs_tb.pcs_inst.transmitter_inst.tx_cg_dut.state[7:0]
+[color] 3
+^10 /home/wilberahr/Documents/Repositories/1S_2025_G6/Transmitter/tff/pcs_tx_cg_states.tff
+pcs_tb.pcs_inst.transmitter_inst.tx_cg_dut.next_state[7:0]
+@1000200
+-Transmitter
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Sun Jul  6 05:26:44 2025
+[*]
+[dumpfile] "/home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/pcs_tx_waves.vcd"
+[dumpfile_mtime] "Sun Jul  6 05:21:08 2025"
+[dumpfile_size] 8987
+[savefile] "/home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/transmitter.gtkw"
+[timestart] 0
+[size] 1920 1001
+[pos] -1 -1
+*-6.476415 232 236 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] transmitter_tb.
+[sst_width] 273
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 340
+@28
+transmitter_tb.transmitter_dut.GTX_CLK
+@2022
+[color] 1
+^6 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/tff/pcs_tx_cg_8b.tff
+transmitter_tb.transmitter_dut.TXD[7:0]
+@2028
+[color] 2
+^1 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/tff/pcs_tx_cg_10B.tff
+transmitter_tb.transmitter_dut.tx_code_group[9:0]
+@28
+[color] 3
+transmitter_tb.transmitter_dut.TX_EN
+[color] 5
+transmitter_tb.transmitter_dut.tx_even
+[color] 7
+transmitter_tb.transmitter_dut.TX_OSET_indicate
+transmitter_tb.transmitter_dut.mr_main_reset
+[color] 1
+transmitter_tb.transmitter_dut.power_on
+transmitter_tb.transmitter_dut.transmitting
+@2022
+[color] 2
+^2 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/tff/pcs_tx_o_set.tff
+transmitter_tb.transmitter_dut.tx_o_set[7:0]
+@2028
+^3 /home/glaurung112/Documentos/glaurung112/Proyecto_Digitales/1S_2025_G6/Transmitter/tff/pcs_xmit.tff
+transmitter_tb.transmitter_dut.xmit[2:0]
+[pattern_trace] 1
+[pattern_trace] 0

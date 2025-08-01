@@ -1,0 +1,4 @@
+# Todos los archivos o directorios listados con el siguiente nombre seran ignorados
+
+*.out
+*.vcd
